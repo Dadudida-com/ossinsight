@@ -60,8 +60,8 @@ importers:
         specifier: ^3.2.4
         version: 3.2.4
       axios:
-        specifier: ^0.26.1
-        version: 0.26.1
+        specifier: ^1.6.0
+        version: 1.6.0
       bullmq:
         specifier: ^3.4.1
         version: 3.15.8
@@ -229,8 +229,8 @@ importers:
         specifier: ^3.2.4
         version: 3.2.4
       axios:
-        specifier: ^0.27.2
-        version: 0.27.2
+        specifier: ^1.6.0
+        version: 1.6.0
       bufferutil:
         specifier: ^4.0.7
         version: 4.0.7
@@ -419,8 +419,8 @@ importers:
         specifier: ^3.2.4
         version: 3.2.4
       axios:
-        specifier: ^0.26.1
-        version: 0.26.1
+        specifier: ^1.6.0
+        version: 1.6.0
       bufferutil:
         specifier: ^4.0.7
         version: 4.0.7
@@ -587,7 +587,7 @@ importers:
     dependencies:
       '@goparrot/geocoder':
         specifier: ^4.4.0
-        version: 4.4.0(axios@0.27.2)(reflect-metadata@0.1.13)
+        version: 4.4.0(axios@1.6.0)(reflect-metadata@0.1.13)
       '@prisma/client':
         specifier: 4.13.0
         version: 4.13.0(prisma@4.16.2)
@@ -598,8 +598,8 @@ importers:
         specifier: ^3.2.4
         version: 3.2.4
       axios:
-        specifier: ^0.27.2
-        version: 0.27.2
+        specifier: ^1.6.0
+        version: 1.6.0
       commander:
         specifier: ^9.4.0
         version: 9.5.0
@@ -1259,7 +1259,7 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@goparrot/geocoder@4.4.0(axios@0.27.2)(reflect-metadata@0.1.13):
+  /@goparrot/geocoder@4.4.0(axios@1.6.0)(reflect-metadata@0.1.13):
     resolution: {integrity: sha512-EyhpI4xnlLjNldTgQJyudoCDqtl4V4mo153FLtNRrCpVJQc2EB5GXCWq4/LnyqNMLIodGlkc5+mnZmxzzhhA9A==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -1267,7 +1267,7 @@ packages:
       reflect-metadata: '>=0.1.13'
     dependencies:
       '@types/heremaps': 3.1.10
-      axios: 0.27.2
+      axios: 1.6.0
       class-transformer: 0.5.1
       class-validator: 0.13.2
       lodash.isempty: 4.4.0
@@ -1583,7 +1583,7 @@ packages:
     resolution: {integrity: sha512-4QpQrIsfq4AlPuGq6g6wY2yvU3YiU3Lg5abGtrISke3CEdMPhp4RQTApHMRi03GVVoYK0hwN5WPbNH0p8HAwhA==}
     engines: {node: '>=12.0'}
     dependencies:
-      axios: 1.4.0
+      axios: 1.6.0
     transitivePeerDependencies:
       - debug
     dev: false
@@ -2745,6 +2745,7 @@ packages:
 
   /@types/parse-json@4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -3382,8 +3383,8 @@ packages:
       - debug
     dev: false
 
-  /axios@1.4.0:
-    resolution: {integrity: sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA==}
+  /axios@1.6.0:
+    resolution: {integrity: sha512-EZ1DYihju9pwVB+jg67ogm+Tmqc6JmhamRN6I4Zt8DfZu5lbcQGw3ozH9lFejSJgs/ibaef3A9PMXPLeefFGJg==}
     dependencies:
       follow-redirects: 1.15.2
       form-data: 4.0.0
@@ -3435,6 +3436,7 @@ packages:
 
   /babel-plugin-macros@2.8.0:
     resolution: {integrity: sha512-SEP5kJpfGYqYKpBrj5XU3ahw5p5GOHJ0U5ssOSQ/WBVdwkD2Dzlce95exQTs3jOVWPPKLBN2rlEWkCK7dSmLvg==}
+    requiresBuild: true
     dependencies:
       '@babel/runtime': 7.22.6
       cosmiconfig: 6.0.0
@@ -3445,6 +3447,7 @@ packages:
   /babel-plugin-preval@4.0.0:
     resolution: {integrity: sha512-fZI/4cYneinlj2k/FsXw0/lTWSC5KKoepUueS1g25Gb5vx3GrRyaVwxWCshYqx11GEU4mZnbbFhee8vpquFS2w==}
     engines: {node: '>=8', npm: '>=6'}
+    requiresBuild: true
     dependencies:
       '@babel/runtime': 7.22.6
       babel-plugin-macros: 2.8.0
@@ -3664,6 +3667,7 @@ packages:
   /buildcheck@0.0.6:
     resolution: {integrity: sha512-8f9ZJCUXyT1M35Jx7MkBgmBMo3oHTTBIPLiY9xyL0pl3T5RwcPEY8cUHr5LBNfu/fk6c2T4DJZuVM/8ZZT2D2A==}
     engines: {node: '>=10.0.0'}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -4147,6 +4151,7 @@ packages:
   /cosmiconfig@6.0.0:
     resolution: {integrity: sha512-xb3ZL6+L8b9JLLCx3ZdoZy4+2ECphCMo2PwqgP1tlfVq6M6YReyzBJtvWWtbDSpNr9hn96pkCiZqUcFEc+54Qg==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dependencies:
       '@types/parse-json': 4.0.0
       import-fresh: 3.3.0
@@ -8167,6 +8172,7 @@ packages:
 
   /node-addon-api@3.2.1:
     resolution: {integrity: sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A==}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -8196,6 +8202,7 @@ packages:
   /node-gyp-build-optional-packages@5.0.7:
     resolution: {integrity: sha512-YlCCc6Wffkx0kHkmam79GKvDQ6x+QZkMjFGrIMxgFNILFvGSbCp2fCBC55pGTT9gVaz8Na5CLmxt/urtzRv36w==}
     hasBin: true
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -8944,6 +8951,7 @@ packages:
 
   /preval.macro@4.0.0:
     resolution: {integrity: sha512-sJJnE71X+MPr64CVD2AurmUj4JEDqbudYbStav3L9Xjcqm4AR0ymMm6sugw1mUmfI/7gw4JWA4JXo/k6w34crw==}
+    requiresBuild: true
     dependencies:
       babel-plugin-preval: 4.0.0
     dev: false
